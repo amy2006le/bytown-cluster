@@ -1,0 +1,9 @@
+Q1: In Part 1 and Part 3 you deleted a running copy, and a new one appeared. Who started it, and why?
+A1: Docker Swarm and Kubernetes started it, due to it wanting to maintain a consistent number of pod/container to keep the application running.
+
+Q2: Give one reason to choose Docker Swarm, and one reason to choose K3s instead of a full Kubernetes installation.
+A2: Docker Swarm is easier to set up, while K3s uses fewer resources than Kubernetes.
+
+Q3: During the rolling update in Part 5, the page never went down. Why?
+A3: Because Kubernetes updated one container at a time, keeping the website running.
+
